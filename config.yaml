@@ -1,5 +1,5 @@
-title: Archetype
-baseURL: /
+title: Susana Anastácio
+baseURL:
 params:
   landing_template: home
   palette: blue
@@ -66,8 +66,8 @@ menu:
       parent: submenu
   footer:
     - identifier: normal8
-      name: Made with Stackbit
-      url: 'https://www.stackbit.com'
+      name: Made with Stackbit by Débora Ribeiro
+      url: 'https://deboraribeiro.netlify.com'
       weight: 4
 disableKinds:
   - RSS

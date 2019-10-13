@@ -9,7 +9,7 @@ dataDir: data
 pagesDir: content
 pageLayoutKey: layout
 metadata:
-  title: Archetype
+  title: Susana Anastácio
   description: a multi-layout theme with posts
   author: Pixelarity
   authorURL: 'https://pixelarity.com'
@@ -24,7 +24,7 @@ metadata:
         large: images/demo-green-1024x768.png
 stackbit_banner:
   show_banner: true
-  name: Archetype
+  name: Susana Anastácio
   create_url: 'https://app.stackbit.com/create?theme=archetype'
   github_url: 'https://github.com/stackbithq/stackbit-theme-archetype'
 models:

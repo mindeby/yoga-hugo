@@ -1,21 +1,23 @@
 ---
 title: home
 banner:
-  title: Amet donec nullam fermentum
-  subtitle: Sed magna in pharetra ultricies dolor sit consequat magna.
+  title: Susana Anastácio
+  subtitle: This is a blog about yoga and travelling
   actions:
     - label: Learn More
       url: /no-sidebar
       is_primary: false
       is_scrolly: false
       is_huge: true
+
+
 sections:
   - type: features
     section_id: features
     features:
-      - title: Integer vitae consequat sed magna feugiat
+      - title: Blog posts
         icon:
-          enabled: true
+          enabled: false
           icon: fa-area-chart
           style: style1
         description: >-
@@ -23,9 +25,9 @@ sections:
           Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem
           ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet
           consectetur. Morbi libero orci, consectetur in odio maximus felis.
-      - title: Phasellus libero eu sed augue gravida
+      - title: Travels
         icon:
-          enabled: true
+          enabled: false
           icon: fa-pie-chart
           style: style2
         description: >-
@@ -33,9 +35,9 @@ sections:
           Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem
           ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet
           consectetur. Morbi libero orci, consectetur in odio maximus felis.
-      - title: Lacus ultricies sagittis mi dui dapibus
+      - title: Classes
         icon:
-          enabled: true
+          enabled: false
           icon: fa-cube
           style: style3
         description: >-
@@ -43,10 +45,12 @@ sections:
           Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem
           ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet
           consectetur. Morbi libero orci, consectetur in odio maximus felis.
+
+
     component: features.html
   - type: cta
     section_id: cta
-    title: Ultrices ante sagittis nunc senectus libero netus
+    title: What you should be eating
     actions:
       - label: How it works
         url: /contact
@@ -59,10 +63,11 @@ sections:
       libero orci, consectetur in odio maximus felis. Lorem ipsum ullamcorper
       laoreet, lectus arcu pulvinar lorem ipsum interdum sed tempus sagittis
       lorem feugiat. In fringilla diet consectetur.
+
     component: cta.html
   - type: posts
     section_id: posts
-    title: Convallis amet interdum
+    title: What I have been doing and talking about
     subtitle: Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.
     component: posts.html
 menu:

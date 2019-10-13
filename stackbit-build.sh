@@ -7,7 +7,7 @@ set -v
 if [[ -z "${STACKBIT_API_KEY}" ]]; then
     echo "WARNING: No STACKBIT_API_KEY environment variable set, skipping stackbit-pull"
 else
-    npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/5da0451d4ebb87001ad0cded 
+    npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/5da0451d4ebb87001ad0cded
 fi
 hugo
 ./inject-netlify-identity-widget.js public

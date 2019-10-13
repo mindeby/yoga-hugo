@@ -16,9 +16,9 @@ contact_methods:
       title: Address
       icon: fa-map-marker
       text: |-
-        Untitled Corp  
-        1234 Fictional Road  
-        Suite 5432  
+        Untitled Corp
+        1234 Fictional Road
+        Suite 5432
         Nashville, TN 00000
   methods_col2:
     - type: contact_with_text
@@ -32,4 +32,4 @@ contact_methods:
       url: '#'
 copyright:
   enabled: true
-  text: '&copy; Untitled. All rights reserved.'
+  text: '&copy; Susana Anastácio. All rights reserved.'
